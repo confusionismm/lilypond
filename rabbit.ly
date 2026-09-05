@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 \header {
   title = "小兔儿乖乖"
@@ -25,7 +25,7 @@ melody = \relative c' {
   c2 \bar "|."
 }
 
-lyrics = \lyricmode {
+songLyrics = \lyricmode {
   小 兔 儿 乖 乖 把 门 儿 开 开
   快 点 儿 开 开 我 要 进 来
   不 开 不 开 我 不 开
@@ -37,7 +37,7 @@ lyrics = \lyricmode {
     instrumentName = "旋律"
   } <<
     \new Voice = "melody" { \melody }
-    \new Lyrics \lyricsto "melody" { \lyrics }
+    \new Lyrics \lyricsto "melody" { \songLyrics }
   >>
   \layout { }
   \midi { }
