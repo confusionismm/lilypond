@@ -1,0 +1,15 @@
+# LilyPond generated output
+*.pdf
+*.midi
+*.mid
+*.log
+*.ps
+*.eps
+*.png
+*.count
+*.tex
+*.texi
+*.dep
+
+# macOS
+.DS_Store
